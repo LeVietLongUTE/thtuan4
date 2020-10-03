@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="header">#F5F5F5</color>
+    <color name="header_top">#00A6AD</color>
+    <color name="whil">#FFFFFF</color>
+    <color name="header_botton">#D7D7D7</color>
+    <color name="black">#222222</color>
+    <color name="backgrou_row">#E8E8E8</color>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".lv_pr"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/backgrou_row">
+        <ImageView
+            android:layout_width="89dp"
+            android:layout_height="60dp"
+            android:id="@+id/img"
+            android:background="@color/colorAccent"
+            android:src="@drawable/logo1"/>
+        <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tình Anh"
+        android:textColor="@color/black"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="serif-monospace"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tencasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đình Dũng"
+        android:textColor="@color/black"
+        android:layout_marginLeft="30dp"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+</LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_caidat1_foreground"
+           android:id="@+id/caidat"
+                android:layout_marginLeft="100dp" />
+    </LinearLayout>
+    </LinearLayout>
